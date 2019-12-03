@@ -1,1 +1,0 @@
-# DevOps-Project-for-Training-
