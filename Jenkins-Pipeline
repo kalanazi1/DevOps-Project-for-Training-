@@ -2,7 +2,7 @@ pipeline {
     agent any 
     
     environment{
-        PATH = "$PATH:$HOME/bin:$JAVA_HOME:$M2:$M2_HOME"
+        PATH = "/opt/maven/bin:$PATH"
         }
     stages {
         stage("Git Checkout"){ 
