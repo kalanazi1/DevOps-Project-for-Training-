@@ -1,10 +1,10 @@
 pipeline {
     agent any 
     stages {
-        stage('Build') { 
+        stage("Git Checkout") { 
             steps {
-                echo "my first test in jenkins"
+             git 'https://github.com/kalanazi1/DevOps-Project-for-Training-'
             }
         }
-    }  
-}         
+    }
+}    
